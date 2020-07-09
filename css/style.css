@@ -35,6 +35,18 @@
 .giphy {
 	max-width: 225px;
 	max-height: auto;
+	border: solid black .1em;
+}
+.resume-btn {
+	width: 100px;
+	height: 50px;
+	background-color: #db3b5d;
+	color: white;
+	border-radius: 6px;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+.resume-btn:hover {
+	transform: scale(1.1);
 }
 .tech {
 	width: 150px;
@@ -44,6 +56,13 @@
 .techTitle {
 	justify-content: center;
 }
+.logo {
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+}
+.logo:hover {
+	transform: scale(1.1); 
+  }
+
 
 	h1,h2,h3,h4,h5,h6
 	{
@@ -187,6 +206,7 @@
 				display: block;
 				width: 100%;
 				margin-bottom: 2em;
+				border: solid black .1em;
 			}
 			
 			.image.left
