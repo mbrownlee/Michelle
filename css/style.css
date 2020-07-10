@@ -37,15 +37,11 @@
 	max-height: auto;
 	border: solid black .1em;
 }
-.resume-btn {
-	width: 100px;
-	height: 50px;
-	background-color: #db3b5d;
-	color: white;
-	border-radius: 6px;
+.resume {
+	max-height: 120px;
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
 }
-.resume-btn:hover {
+.resume:hover {
 	transform: scale(1.1);
 }
 .tech {
