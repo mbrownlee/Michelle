@@ -49,6 +49,9 @@
 	height: auto;
 	padding: 20px;
 }
+.projectTitle {
+	font-weight: bold !important;
+}
 .techTitle {
 	justify-content: center;
 }
@@ -814,7 +817,7 @@
 	#banner
 	{
 		position: relative;
-		background: #333 url(../images/crazyeyes.jpg) no-repeat right;
+		background: #333 url(../images/smallerheadshot.jpg) no-repeat right; 
 		/* background-size: cover; */
 		color: #fff;
 	}
